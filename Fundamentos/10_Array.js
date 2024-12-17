@@ -7,7 +7,7 @@ nomes[2] = 'levi'
 
 const idades = [22,20,10,7]
 
-console.log(idades)
+console.log(idades) 
 
 idades[4] = 40
 

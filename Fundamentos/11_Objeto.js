@@ -13,5 +13,5 @@ let produto2 = {
         blabla: 2 // podemos ter um objeto dentro de um objeto
     }
 }
-console.log(produto2.obj)
+console.log(produto2)
 
