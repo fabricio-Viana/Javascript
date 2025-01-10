@@ -3,7 +3,7 @@ const ferrari ={
     velMax: 324
 }
 
-const Volvo  ={
+const Volvo  = {
     modelo: "V40",
     velMax: 200
 } 
