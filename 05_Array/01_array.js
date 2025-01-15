@@ -33,3 +33,5 @@ console.log(aprovados.length)
  aprovados.splice(1,1,'FAFA','MEMEL')
 
  console.log(aprovados)
+
+ console.log(_.random(1,10))
