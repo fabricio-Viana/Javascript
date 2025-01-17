@@ -5,5 +5,5 @@ const axios = require("axios")
 axios.get(url).then(jsonfuncionarios => {
     const funcionarios =jsonfuncionarios.data;
 
-    console.log(funcionarios)
+    //console.log(funcionarios)
 })
