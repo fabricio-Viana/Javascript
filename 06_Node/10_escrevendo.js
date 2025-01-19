@@ -11,7 +11,7 @@ let produto = {
 }
 
 fs.writeFile('/home/fabricio/Documentos/JavaScript/06_Node/10_arquivo.json',JSON.stringify(produto), err => {
-    console.log(err|| 'arquivo salvo')
+    console.log(err|| 'arquivo salvo') // importante
 })
 
 fs.readFile('/home/fabricio/Documentos/JavaScript/06_Node/10_arquivo.json','utf-8',(err, conteudo)=>{
