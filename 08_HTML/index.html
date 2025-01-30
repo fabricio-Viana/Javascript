@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios HTML</title>
+</head>
+<body>
+    <header>
+        <H1>Exercicios HTML</H1>
+    </header>
+    <nav>
+        <a href web-nav = "/exercicios/teste.html">00_Teste</a> 
+        <a href web-nav = "/exercicios/temp.html">TEMP</a>
+
+        
+    </nav>
+    <section id="conteudo"></section>
+
+    <footer>
+        <BR></BR>
+        Curso WEB
+    </footer>
+
+    <script>
+        document.querySelectorAll('[web-nav]').forEach(link=>{
+            const conteudo = document.getElementById('conteudo')
+            
+            link.onclick = (e)=>{
+                e.preventDefault()
+
+                fetch(link.getAttribute('web-nav'))
+                    .then( resp => resp.text() )
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+</body>
+</html>
