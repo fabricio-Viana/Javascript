@@ -3,16 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Anatomia CSS</title>
+    <title> ia CSS</title>
 
     <style>
       .selector{
-        color: red;
+        color: #fff;
         font-size: 50px;
         text-align: center;
+        /* multiplos valoras */
         border: solid 10px navy;
-        font-family:  monospace;
+        font-family:  Helvetica, sans-serif;
+        width: calc(100% - 100px);
+        background-color: aqua;
       }
+      .selector:hover{
+        background-color: orangered;
+        font: 100px;
+        color: blue;
+      }
+      .selector::first-letter{
+        font-size: 100px;
+        font-weight: bold;
+        border: black, 1px;
     </style>
 </head>
 
