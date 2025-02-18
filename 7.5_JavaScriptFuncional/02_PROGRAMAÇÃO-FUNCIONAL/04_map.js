@@ -18,5 +18,6 @@ const alunos =[
 const apenasNotas = a => `nota = ${a.nota}`
 const lunos2 = alunos.map(apenasNotas)
 
-console.log(lunos2)
 
+numbers.map((a)=> {
+return console.log(a*4)})
